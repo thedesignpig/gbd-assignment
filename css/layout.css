@@ -1,6 +1,6 @@
 /* line 4, ../sass/layout.scss */
 body {
-  font-family: Montserrat, sans-serif;
+  font-family: montserratregular, sans-serif;
   font-size: 14px;
 }
 
@@ -22,27 +22,29 @@ body {
   font-weight: 200;
   padding: 20px 10px;
   color: #FFF;
+  font-family: montserratlight;
 }
-/* line 23, ../sass/layout.scss */
+/* line 24, ../sass/layout.scss */
 .title-bar.logo-holder {
   background: #0a2639;
   padding: 25px;
 }
-/* line 29, ../sass/layout.scss */
+/* line 30, ../sass/layout.scss */
 .title-bar .user strong {
   font-weight: 700;
+  font-family: montserratbold;
 }
-/* line 32, ../sass/layout.scss */
+/* line 34, ../sass/layout.scss */
 .title-bar .user .role {
   text-transform: uppercase;
   font-size: 10px;
 }
-/* line 39, ../sass/layout.scss */
+/* line 41, ../sass/layout.scss */
 .title-bar .page-title h1 {
   font-size: 21px;
 }
 
-/* line 46, ../sass/layout.scss */
+/* line 48, ../sass/layout.scss */
 .content-wrapper {
   padding: 40px;
 }

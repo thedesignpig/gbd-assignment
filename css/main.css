@@ -65,7 +65,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 /* line 4, ../sass/layout.scss */
 body {
-  font-family: Montserrat, sans-serif;
+  font-family: montserratregular, sans-serif;
   font-size: 14px;
 }
 
@@ -87,27 +87,29 @@ body {
   font-weight: 200;
   padding: 20px 10px;
   color: #FFF;
+  font-family: montserratlight;
 }
-/* line 23, ../sass/layout.scss */
+/* line 24, ../sass/layout.scss */
 .title-bar.logo-holder {
   background: #0a2639;
   padding: 25px;
 }
-/* line 29, ../sass/layout.scss */
+/* line 30, ../sass/layout.scss */
 .title-bar .user strong {
   font-weight: 700;
+  font-family: montserratbold;
 }
-/* line 32, ../sass/layout.scss */
+/* line 34, ../sass/layout.scss */
 .title-bar .user .role {
   text-transform: uppercase;
   font-size: 10px;
 }
-/* line 39, ../sass/layout.scss */
+/* line 41, ../sass/layout.scss */
 .title-bar .page-title h1 {
   font-size: 21px;
 }
 
-/* line 46, ../sass/layout.scss */
+/* line 48, ../sass/layout.scss */
 .content-wrapper {
   padding: 40px;
 }
@@ -141,74 +143,76 @@ body {
 .card {
   padding: 20px;
   font-weight: 200;
+  font-family: montserratlight;
   border: 1px solid rgba(0, 0, 0, 0.1);
   box-shadow: 0 0 3px 0px #CCC;
   margin-bottom: 25px;
 }
-/* line 9, ../sass/card.scss */
+/* line 10, ../sass/card.scss */
 .card .card-heading {
   margin-bottom: 10px;
 }
-/* line 11, ../sass/card.scss */
+/* line 12, ../sass/card.scss */
 .card .card-heading h1 {
   display: inline-block;
   margin-left: 5px;
   font-size: 21px;
   margin-bottom: 15px;
 }
-/* line 22, ../sass/card.scss */
+/* line 23, ../sass/card.scss */
 .card .card-content h2 {
   text-transform: uppercase;
   font-weight: 200;
+  font-family: montserratlight;
   margin: 10px 0;
 }
-/* line 27, ../sass/card.scss */
+/* line 29, ../sass/card.scss */
 .card .card-content h2 strong {
   font-weight: normal;
 }
-/* line 32, ../sass/card.scss */
+/* line 34, ../sass/card.scss */
 .card .card-content li {
   margin: 15px 0;
 }
-/* line 34, ../sass/card.scss */
+/* line 36, ../sass/card.scss */
 .card .card-content li p {
   font-size: 13px;
   line-height: 16px;
 }
-/* line 41, ../sass/card.scss */
+/* line 43, ../sass/card.scss */
 .card .card-footer {
   text-align: right;
   font-size: 12px;
   padding-top: 20px;
   border-top: 1px dotted #CCC;
 }
-/* line 46, ../sass/card.scss */
+/* line 48, ../sass/card.scss */
 .card .card-footer a {
   text-decoration: underline;
 }
-/* line 53, ../sass/card.scss */
+/* line 55, ../sass/card.scss */
 .card.card-1 img {
   margin-left: 15px;
 }
-/* line 59, ../sass/card.scss */
+/* line 61, ../sass/card.scss */
 .card.card-2 ul {
   padding-left: 20px;
 }
-/* line 61, ../sass/card.scss */
+/* line 63, ../sass/card.scss */
 .card.card-2 ul a {
   text-decoration: underline;
   display: inline-block;
   padding: 1px 0;
 }
-/* line 70, ../sass/card.scss */
+/* line 72, ../sass/card.scss */
 .card.card-3 li {
   padding: 10px 0;
 }
-/* line 74, ../sass/card.scss */
+/* line 76, ../sass/card.scss */
 .card.card-3 li .network i {
   width: 30px;
 }
-/* line 80, ../sass/card.scss */
+/* line 82, ../sass/card.scss */
 .card.card-3 .status-box {
   display: inline-block;
   background: red;
@@ -219,33 +223,34 @@ body {
   margin-top: -10px;
   text-transform: uppercase;
 }
-/* line 89, ../sass/card.scss */
+/* line 91, ../sass/card.scss */
 .card.card-3 .status-box i {
   display: inline-block;
   margin-right: 5px;
 }
-/* line 93, ../sass/card.scss */
+/* line 95, ../sass/card.scss */
 .card.card-3 .status-box.on {
   background: #2ecc71;
 }
-/* line 103, ../sass/card.scss */
+/* line 105, ../sass/card.scss */
 .card.card-4 ul {
   margin-left: 25px;
 }
-/* line 106, ../sass/card.scss */
+/* line 108, ../sass/card.scss */
 .card.card-4 li {
   margin: 25px 0;
 }
-/* line 109, ../sass/card.scss */
+/* line 111, ../sass/card.scss */
 .card.card-4 h2 {
   text-transform: uppercase;
   font-weight: 700;
+  font-family: montserratbold;
 }
-/* line 114, ../sass/card.scss */
+/* line 117, ../sass/card.scss */
 .card.card-4 .row-text {
   font-size: 12px;
 }
-/* line 118, ../sass/card.scss */
+/* line 121, ../sass/card.scss */
 .card.card-4 .row-text .next-bill {
   display: block;
   text-transform: uppercase;

@@ -1,21 +1,21 @@
 /*
 Error: Undefined variable: "$green".
-        on line 94 of C:/Users/isha/Desktop/gbd-assignment/gbd-assignment/sass/card.scss
+        on line 96 of C:/Users/isha/Desktop/gbd-assignment/gbd-assignment/sass/card.scss
 
-89:     i{
-90:     	display: inline-block;
-91:     	margin-right: 5px;
-92:     }
-93:     &.on{
-94:     	background: $green;
-95:     }
-96: 			}
-97: 		}
-98: 
-99: 
+91:     i{
+92:     	display: inline-block;
+93:     	margin-right: 5px;
+94:     }
+95:     &.on{
+96:     	background: $green;
+97:     }
+98: 			}
+99: 		}
+100: 
+101: 
 
 Backtrace:
-C:/Users/isha/Desktop/gbd-assignment/gbd-assignment/sass/card.scss:94
+C:/Users/isha/Desktop/gbd-assignment/gbd-assignment/sass/card.scss:96
 C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/script/tree/node.rb:58:in `perform'
 C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:397:in `visit_prop'
@@ -100,4 +100,4 @@ C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/vendor/listen/lib/listen/adapter.
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$green\".\A         on line 94 of C:/Users/isha/Desktop/gbd-assignment/gbd-assignment/sass/card.scss\A \A 89:     i{\A 90:     	display: inline-block;\A 91:     	margin-right: 5px;\A 92:     }\A 93:     &.on{\A 94:     	background: $green;\A 95:     }\A 96: 			}\A 97: 		}\A 98: \A 99: "; }
+  content: "Error: Undefined variable: \"$green\".\A         on line 96 of C:/Users/isha/Desktop/gbd-assignment/gbd-assignment/sass/card.scss\A \A 91:     i{\A 92:     	display: inline-block;\A 93:     	margin-right: 5px;\A 94:     }\A 95:     &.on{\A 96:     	background: $green;\A 97:     }\A 98: 			}\A 99: 		}\A 100: \A 101: "; }

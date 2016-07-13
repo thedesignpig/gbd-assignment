@@ -2,7 +2,7 @@ $base-blue:#3498db;
 $green:#2ecc71;
 
 body{
-	font-family:Montserrat, sans-serif;
+	font-family:montserratregular, sans-serif;
 	font-size: 14px;
 }
 
@@ -20,6 +20,7 @@ body{
 	font-weight: 200;
 	padding: 20px 10px;
 	color:#FFF;
+	font-family: montserratlight;
 	&.logo-holder{
 		background: darken($base-blue,40%);
 		padding: 25px;
@@ -28,6 +29,7 @@ body{
 	.user{
 		strong{
 	font-weight: 700;
+	font-family: montserratbold;
 }
 		.role{
 			text-transform: uppercase;
