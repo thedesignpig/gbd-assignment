@@ -1,0 +1,42 @@
+/* line 1, ../sass/card.scss */
+.card {
+  padding: 20px;
+  font-weight: 200;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 3px 0px #CCC;
+}
+/* line 8, ../sass/card.scss */
+.card .card-heading {
+  margin-bottom: 10px;
+}
+/* line 10, ../sass/card.scss */
+.card .card-heading h1 {
+  display: inline-block;
+  margin-left: 5px;
+}
+/* line 19, ../sass/card.scss */
+.card .card-content h2 {
+  text-transform: uppercase;
+  font-weight: 200;
+  margin: 10px 0;
+}
+/* line 24, ../sass/card.scss */
+.card .card-content h2 strong {
+  font-weight: normal;
+}
+/* line 29, ../sass/card.scss */
+.card .card-content li {
+  margin: 15px 0;
+}
+/* line 31, ../sass/card.scss */
+.card .card-content li p {
+  font-size: 13px;
+  line-height: 16px;
+}
+/* line 38, ../sass/card.scss */
+.card .card-footer {
+  text-align: right;
+  font-size: 12px;
+  padding-top: 20px;
+  border-top: 1px dotted #CCC;
+}

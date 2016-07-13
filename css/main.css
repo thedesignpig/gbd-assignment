@@ -1,0 +1,172 @@
+/* line 5, ../../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 3, ../sass/layout.scss */
+body {
+  font-family: Montserrat, sans-serif;
+}
+
+/* line 7, ../sass/layout.scss */
+.w20 {
+  width: 15%;
+  float: left;
+}
+
+/* line 11, ../sass/layout.scss */
+.w80 {
+  width: 85%;
+  float: left;
+}
+
+/* line 16, ../sass/layout.scss */
+.title-bar {
+  background: #3498db;
+  font-weight: 200;
+  padding: 20px 10px;
+  color: #FFF;
+}
+/* line 21, ../sass/layout.scss */
+.title-bar.logo-holder {
+  background: #0a2639;
+  padding: 25px;
+}
+/* line 27, ../sass/layout.scss */
+.title-bar .user .role {
+  text-transform: uppercase;
+  font-size: 10px;
+}
+
+/* line 34, ../sass/layout.scss */
+.content-wrapper {
+  padding: 40px;
+}
+
+/*Nav*/
+/* line 3, ../sass/nav.scss */
+.left-nav {
+  background: #3498db;
+  position: relative;
+  height: 100%;
+  color: #FFF;
+}
+/* line 9, ../sass/nav.scss */
+.left-nav li {
+  padding: 15px 25px;
+  display: block;
+  font-size: 14px;
+  cursor: pointer;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+/* line 15, ../sass/nav.scss */
+.left-nav li:last-child {
+  border-bottom: none;
+}
+/* line 18, ../sass/nav.scss */
+.left-nav li:hover {
+  background: #196090;
+}
+
+/* line 1, ../sass/card.scss */
+.card {
+  padding: 20px;
+  font-weight: 200;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 3px 0px #CCC;
+}
+/* line 8, ../sass/card.scss */
+.card .card-heading {
+  margin-bottom: 10px;
+}
+/* line 10, ../sass/card.scss */
+.card .card-heading h1 {
+  display: inline-block;
+  margin-left: 5px;
+}
+/* line 19, ../sass/card.scss */
+.card .card-content h2 {
+  text-transform: uppercase;
+  font-weight: 200;
+  margin: 10px 0;
+}
+/* line 24, ../sass/card.scss */
+.card .card-content h2 strong {
+  font-weight: normal;
+}
+/* line 29, ../sass/card.scss */
+.card .card-content li {
+  margin: 15px 0;
+}
+/* line 31, ../sass/card.scss */
+.card .card-content li p {
+  font-size: 13px;
+  line-height: 16px;
+}
+/* line 38, ../sass/card.scss */
+.card .card-footer {
+  text-align: right;
+  font-size: 12px;
+  padding-top: 20px;
+  border-top: 1px dotted #CCC;
+}

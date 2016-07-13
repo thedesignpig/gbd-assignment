@@ -1,0 +1,23 @@
+
+/*Nav*/
+.left-nav{
+	background: $base-blue;
+	position:relative;
+	height:100%;
+	color:#FFF;
+
+		li{
+			padding:15px 25px;
+			display: block;
+			font-size: 14px;
+			cursor:pointer;
+			border-bottom:1px solid rgba(255,255,255,.3);
+			&:last-child{
+				border-bottom:none;
+			}
+			&:hover{
+				background:darken($base-blue,20%);
+			}
+		}
+	
+}

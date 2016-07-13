@@ -1,0 +1,23 @@
+{
+  "name": "gbd-assignment",
+  "homepage": "https://github.com/thedesignpig/gbd-assignment",
+  "description": "gdb assignment project",
+  "main": "",
+  "authors": [
+    "adi"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^1.9.1",
+    "bootstrap": "^3.3.6",
+    "font-awesome": "fontawesome#^4.6.3",
+    "montserrat-font": "*"
+  }
+}
