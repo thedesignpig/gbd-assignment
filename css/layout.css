@@ -1,39 +1,48 @@
-/* line 3, ../sass/layout.scss */
+/* line 4, ../sass/layout.scss */
 body {
   font-family: Montserrat, sans-serif;
+  font-size: 14px;
 }
 
-/* line 7, ../sass/layout.scss */
+/* line 9, ../sass/layout.scss */
 .w20 {
   width: 15%;
   float: left;
 }
 
-/* line 11, ../sass/layout.scss */
+/* line 13, ../sass/layout.scss */
 .w80 {
   width: 85%;
   float: left;
 }
 
-/* line 16, ../sass/layout.scss */
+/* line 18, ../sass/layout.scss */
 .title-bar {
   background: #3498db;
   font-weight: 200;
   padding: 20px 10px;
   color: #FFF;
 }
-/* line 21, ../sass/layout.scss */
+/* line 23, ../sass/layout.scss */
 .title-bar.logo-holder {
   background: #0a2639;
   padding: 25px;
 }
-/* line 27, ../sass/layout.scss */
+/* line 29, ../sass/layout.scss */
+.title-bar .user strong {
+  font-weight: 700;
+}
+/* line 32, ../sass/layout.scss */
 .title-bar .user .role {
   text-transform: uppercase;
   font-size: 10px;
 }
+/* line 39, ../sass/layout.scss */
+.title-bar .page-title h1 {
+  font-size: 21px;
+}
 
-/* line 34, ../sass/layout.scss */
+/* line 46, ../sass/layout.scss */
 .content-wrapper {
   padding: 40px;
 }

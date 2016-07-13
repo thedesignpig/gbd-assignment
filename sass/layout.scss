@@ -1,7 +1,9 @@
 $base-blue:#3498db;
+$green:#2ecc71;
 
 body{
 	font-family:Montserrat, sans-serif;
+	font-size: 14px;
 }
 
 .w20{
@@ -24,10 +26,20 @@ body{
 
 	}
 	.user{
+		strong{
+	font-weight: 700;
+}
 		.role{
 			text-transform: uppercase;
 			font-size: 10px;
 		}
+	}
+
+	.page-title{
+		h1{
+			font-size: 21px;
+		}
+
 	}
 }
 

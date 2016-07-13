@@ -5,11 +5,14 @@
 		border:1px solid rgba(0,0,0,.1);
 		box-shadow:0 0 3px 0px #CCC;
 
+		margin-bottom: 25px;
 		.card-heading{
 			margin-bottom: 10px;
 			h1{
 				display: inline-block;
 				margin-left: 5px;
+				font-size: 21px;
+				margin-bottom: 15px;
 
 			}
 		}
@@ -40,5 +43,86 @@
 			font-size: 12px;
 			padding-top:20px;
 			border-top:1px dotted #CCC;
+			a{
+				text-decoration: underline;
+
+			}
 		}
+
+		&.card-1{
+			img{
+				margin-left: 15px;
+			}
+		}
+
+		&.card-2{
+			ul{
+				padding-left: 20px;
+				a{
+					text-decoration: underline;
+					display: inline-block;
+					padding: 1px 0;
+				}
+			}
+		}
+
+		&.card-3{
+			li{
+				padding:10px 0;
+
+				.network{
+					i{
+						width: 30px;
+					}
+				}
+			}
+
+			.status-box{
+				display: inline-block;
+    background: red;
+    padding: 10px 15px;
+    border-radius: 4px;
+    color: #FFF;
+    font-weight: bold;
+    margin-top: -10px;
+    text-transform: uppercase;
+    i{
+    	display: inline-block;
+    	margin-right: 5px;
+    }
+    &.on{
+    	background: $green;
+    }
+			}
+		}
+
+
+	&.card-4{
+
+	
+			ul{
+				margin-left: 25px;
+			}
+			li{
+				margin:25px 0;
+			}
+			h2{
+				text-transform: uppercase;
+				font-weight: 700;
+			}
+
+		.row-text{
+			
+			font-size: 12px;
+
+			.next-bill{
+				display: block;
+				text-transform: uppercase;
+				font-size: 10px;
+				margin-top: 10px;
+
+			}
+		}		
+		
+	}
 }
